@@ -162,5 +162,32 @@ table {
 /* Pre style */
 
 
+/* Styling footer */
 
+footer {
+  width: 100%;
+}
+
+.top-footer {
+  background-color: #131313;
+  justify-content: center;
+}
+
+.socialmedia-icons {
+  align-items: center;
+}
+
+.socialmedia-icons a {
+    border-radius: 50%;
+    display: block;
+    height: 40px;
+    padding: 12px;
+    width: 40px;
+    margin: 3px;
+    background-color: #333333;
+    color: white;
+}
  
+.footer-links {
+  
+}
