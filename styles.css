@@ -170,11 +170,15 @@ footer {
 
 .top-footer {
   background-color: #131313;
-  justify-content: center;
+    justify-content: center;
+    height: 180px;
 }
 
 .socialmedia-icons {
   align-items: center;
+  height: 120px;
+  justify-content: center;
+
 }
 
 .socialmedia-icons a {
@@ -189,5 +193,14 @@ footer {
 }
  
 .footer-links {
-  
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.footer-links a {
+  font-size: 13px;
+  font-family: Shentox, sans-serif;
+  justify-content: space-between;
+  padding: 0 3px;
 }
