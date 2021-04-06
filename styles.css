@@ -172,39 +172,10 @@ table {
 
 /* START Header */
 
-html body {
-    margin: 0;
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 14px;
-}
-  
 header {
     position: fixed;
     width: 100%;
     background-color: white;
-}
-  
-#navbar-black {
-    display: none;
-}
-  
-#bottom-left-menu {
-    display: none;
-}
-  
-#navbar-white {
-    border-bottom: 2px #777;
-}
-  
-nav img {
-    width: 108px;
-    height: 45px;
-    background-color: black;
-    padding: 15px 20px;
-}
-  
-nav img:hover {
-    background-image: url("./Images/home-gif.gif");
 }
   
 #top-navbar {
@@ -212,31 +183,51 @@ nav img:hover {
     align-items: center;
 }
   
-#bottom-icons a {
-    font-size: 18px;
-    color: #bbb;
-    border-left: 1px solid #bbb;
-    padding: 12px 15px;
+#leftTopNav {
+    background-color: black;
+    width: 100px;
+    padding: 14px 20px;
+    margin: 0;
 }
   
-#bottom-icons a:hover {
+#leftTopNav:hover {
+    background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/home-1.gif");
+}
+  
+.topNav-icons i {
+    padding: 14px 16px;
+    border-left: solid 1px #eee;
+    justify-content: center;
+    align-items: center;
+    color: #bbb;
+    font-size: 1rem;
+}
+
+.topNav-icons i:nth-child(even) {
+    color: orangered;
+}
+
+.topNav-icons i:hover:first-child {
     color: #777;
 }
   
-#bottom-icons a:nth-child(even) {
-    color: tomato;
-}
-  
-#yellow-footer {
-    text-align: center;
-    font-size: 13px;
-    font-weight: lighter;
+#topData {
     display: block;
+    background-color: #fd3;
     padding: 20px 10px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    background-color: #ffdd33;
+    font-size: 14px;
+    text-align: center;
+}
+  
+#container-small-hiden-nav {
+    display: none;
+}
+  
+#list-second-nav {
+    display: inline-flex;
 }
 
 /* START HIGHTLIGHTS */
@@ -382,5 +373,76 @@ footer {
 
 /* START Latest Founding */
 
+@media (min-width: 768px) {
 
+    /* START navbar */
+
+    #leftTopNav {
+      padding: 30px 20px;
+    }
+  
+    #rightTopNav,
+    .hidden-nav-dropdown {
+      display: none;
+    }
+  
+    #topNav {
+      justify-content: normal;
+    }
+  
+    #container-small-hiden-nav {
+      flex-direction: column;
+      font-size: 13px;
+      display: flex;
+    }
+  
+    #container-small-hiden-nav li {
+      margin-left: 14px;
+    }
+  
+    .small-screen-hidden {
+      justify-content: space-between;
+      width: 100%;
+    }
+  
+    #top-nav-hidden {
+      justify-content: space-between;
+      background-color: black;
+      color: hsla(0, 0%, 100%, 0.6);
+      padding-right: 20px;
+      font-weight: bold;
+    }
+  
+    #top-nav-hidden a:hover {
+      color: white;
+    }
+  
+    #second-nav-hidden {
+      margin: 0;
+      align-items: center;
+    }
+  
+    #second-nav-hidden li {
+      font-size: 16px;
+      font-family: 'Rajdhani', sans-serif;
+      color: #aaa;
+    }
+  
+    #second-nav-hidden li:hover {
+      color: black;
+    }
+  
+    .nav-ntw {
+      justify-content: space-between;
+    }
+  
+    #hiden-nav-a {
+      color: #ddd;
+    }
+  
+    #topData {
+      padding: 10px;
+    }
+  
+}
 

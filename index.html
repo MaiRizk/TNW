@@ -12,47 +12,50 @@
 <!-- START Header -->
 <header>
     <nav id="top-navbar" class="flex">
-        <a href="#" id="left-top-navbar">
+        <a href="#" id="leftTopNav">
             <img src="./Images/tnw.svg" alt="">
         </a>
-        <div id="navbar-black">
-            <div id="left-menu">
-                <ul>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Events ▾</a></li>
-                    <li><a href="#">Business ▾</a></li>
+        <div id="rightTopNav" class="flex">
+            <a href="#" class="topNav-icons flex" id="right-top-nav-a">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-bars"></i>
+            </a>
+            
+        </div>
+        <div id="container-small-hiden-nav" class="small-screen-hidden">
+            <div id="top-nav-hidden" class="flex">
+                <ul class="nav-ntw flex">
+                    <li><a id="hiden-nav-a" href="#">News</a></li>
+                    <li><a href="#">Business▾</a></li>
                     <li><a href="#">AMAs</a></li>
                     <li><a href="#">Spaces</a></li>
                     <li><a href="#">Terms & Conditions</a></li>
                 </ul>
-            </div>
-            <div id="right-menu">
-                <ul>
+                <ul class="flex">
                     <li><a href="#">About</a></li>
                     <li><a href="#">Advertise</a></li>
                     <li><a href="#">Jobs</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-        </div>
-        <div id="navbar-white" class="flex">
-            <div id="bottom-left-menu">
-                <ul>
-                    <li><a href="#">LATEST</a></li>
-                    <li><a href="#">HARD FORK</a></li>
-                    <li><a href="#">PLUGGED</a></li>
-                    <li><a href="#">README</a></li>
-                    <li><a href="#">GROWTH QUARTERS</a></li>
-                </ul>
-            </div>
-            <div id="bottom-icons" class="flex">
-                <a href="#"><i class="fas fa-search"></i></a>
-                <a href="#"><i class="fas fa-bars"></i></a>
-            </div>
+            <ul id="second-nav-hidden" class="small-screen-hidden flex">
+                    <ul id="list-second-nav">
+                        <li><a href="#">LATEST</a></li>
+                        <li><a href="#">HARD FORK</a></li>
+                        <li><a href="#">PLUGGED</a></li>
+                        <li><a href="#">README</a></li>
+                        <li><a href="#">GROWTH QUARTERS</a></li>
+                    </ul>
+                <li>
+                    <a href="#" id="second-hidden-a" class="topNav-icons flex">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
     </nav>
-    <a href="#" id="yellow-footer">
-        <span>Calling young digital talent in the Netherlands – Be recognized in the T500 → </span>
+    <a href="#" id="topData">
+        <span>Calling young digital talent in the Netherlands – Be recognized in the T500 →</span>
     </a>
 </header>
 <!-- END Header -->
