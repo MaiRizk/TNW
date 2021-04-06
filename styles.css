@@ -332,9 +332,6 @@ footer {
   padding: 15px;
 }
 
-
-/* Styling hover effects for the whole page */
-
 .socialmedia-icons a:hover {
  background-color: black;
  box-shadow: inset 0 0 0 2px #333;
@@ -343,4 +340,6 @@ footer {
 .footer-links a:hover {
   color: white;
 }
+
+/* START Latest Founding */
 
