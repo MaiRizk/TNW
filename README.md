@@ -3,7 +3,7 @@
 # TNW
 
 > In this project, we will replicate the archived version of the website The Next Web.
-![screenshot]()
+![screenshot](Images/screen-shot.png)
 
 ## Built With
 - CSS
