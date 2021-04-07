@@ -729,7 +729,6 @@ footer {
 
 .first-section-header img {
   width: 400px;
-  z-index: 222;
 }
 
 .first-section-header span {
@@ -737,5 +736,7 @@ footer {
 
 }
 
+.first-grid .background:hover {
+  background: linear-gradient(356deg, #000, hsl(11deg 100% 62% / 39%))}
 }
 
