@@ -711,11 +711,11 @@ footer {
   }
 
   .grid-container {
-    height: 500px%;
+    height: 500px;
   }
 
   .first-grid {
-      height: 350px;
+      height: 100%;
   }
 
   .first-grid h2 {
@@ -725,7 +725,7 @@ footer {
   }
 
   .second-grid {
-    height: 170px;
+    height: 100%;
   }
 
   .second-grid h2 {
@@ -734,7 +734,7 @@ footer {
   }
 
   .third-grid {
-    height: 170px;
+    height: 100%;
   }
 
   .third-grid h2 {
