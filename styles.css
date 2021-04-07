@@ -711,7 +711,7 @@ footer {
   }
 
   .grid-container {
-    height: 100%;
+    height: 500px%;
   }
 
   .first-grid {
@@ -765,14 +765,16 @@ footer {
 
   .first-section-header span {
     color: white;
+
+  .first-grid .background:hover {
+      background: linear-gradient(356deg, #000, hsl(11deg 100% 62% / 39%))}
+    }  
+
   }
 
   /* START Latest Founding */
 
 <<<<<<< HEAD
-.first-grid .background:hover {
-  background: linear-gradient(356deg, #000, hsl(11deg 100% 62% / 39%))}
-}
 =======
   #grid-latest-founding {
     grid-template-columns: repeat(4, 1fr);
