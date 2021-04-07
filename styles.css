@@ -573,8 +573,9 @@ footer {
     justify-content: space-between;
     background-color: black;
     color: hsla(0, 0%, 100%, 0.6);
-    padding-right: 20px;
+    padding: 10px 20px 10px 0;
     font-weight: lighter;
+    font-size: 14px;
   }
 
   #top-nav-hidden a:hover {
@@ -587,7 +588,7 @@ footer {
   }
 
   #second-nav-hidden li {
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Rajdhani', sans-serif;
     color: #aaa;
   }
@@ -605,7 +606,8 @@ footer {
   }
 
   #topData {
-    padding: 10px;
+    padding: 10px 114px;
+    text-align: start;
   }
 
   /* START HIGHTLIGHTS */
@@ -678,6 +680,10 @@ footer {
 
   #leftTopNav {
     display: none;
+  }
+
+  #topData {
+    padding-left: 14px;
   }
     
   /* START HIGHTLIGHTS */
