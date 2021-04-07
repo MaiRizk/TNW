@@ -326,8 +326,11 @@ header {
   color: #f42;
   flex-direction: column;
   gap: 7px;
-  font-size: 15px;
+  font-size: 14px;
   margin-bottom: 20px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  line-height: 25px;
 }
 
 .bar {
@@ -649,6 +652,7 @@ footer {
 
   #nav-lates-founding {
     flex-direction: row;
+    font-size: 16px;
   }
 
   .bar {
@@ -782,7 +786,7 @@ footer {
 
   #nav-lates-founding {
     margin-bottom: 0;
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .section-tittle {
