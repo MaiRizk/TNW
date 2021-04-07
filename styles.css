@@ -638,5 +638,11 @@ footer {
   left: 3%
 }
 
+/* START FOOTER */ 
+
+.bottom-footer span {
+  display: inline;
+}
+
 }
 
