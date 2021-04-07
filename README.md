@@ -21,12 +21,12 @@
 - GitHub: [@MaiRizk](https://github.com/MaiRizk)
 - Twitter: [@MaiRizk](https://twitter.com/MaiRizk16)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mai-rizk-252722188/)
-- 
+
 👤 **Ibrohim Rasulov**
 - GitHub: [@IbrohimRasulov](https://github.com/IbrohimRasulov)
 - Twitter: [@IbrohimRasu1ov](https://twitter.com/IbrohimRasu1ov)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ibrohim-rasulov-a88352209/)
-- 
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
