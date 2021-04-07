@@ -439,14 +439,13 @@ footer {
   background-color: #131313;
   justify-content: space-evenly;
   height: auto;
-  min-height: 150px;
-  display: flex;
+  min-height: 165px;
 }
 
 .socialmedia-icons {
   align-items: center;
   justify-content: center;
-  padding: 15px;
+  padding-top: 10px;
 }
 
 .socialmedia-icons a {
@@ -463,7 +462,6 @@ footer {
 
 .socialmedia-icons i {
   font-size: 1.3em;
-  font-weight: 600;
 }
 
 .footer-links {
@@ -471,12 +469,13 @@ footer {
   align-items: center;
   color: white;
   padding-bottom: 15px;
-  color: #949494;
+  color: #aaa;
+  font-weight: lighter;
 }
 
 .footer-links a {
   font-size: 12px;
-  font-family: Shentox, sans-serif;
+  font-family: sans-serif;
   justify-content: space-between;
   padding: 0 3px;
 }
@@ -494,25 +493,23 @@ footer {
   background-color: black;
   color: white;
   line-height: 20px;
-  font-family: ARS Maquette, Helvetica Neue, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 13px;
   padding: 30px;
-  box-shadow: inset 0 4px 1px -3px rgb(68 68 68 / 75%);
 }
 
 .bottom-footer-img-1 {
-  width: 40px;
-  cursor: pointer;
+  width: 38px;
 }
 
 .bottom-footer-img-2 {
-  width: 70px;
-  cursor: pointer;
+  width: 68px;
 }
 
 .bottom-footer span {
   display: block;
-  color: #949494;
+  color: #999;
+  font-weight: lighter;
 }
 
 .wrap {
@@ -666,6 +663,18 @@ footer {
   }
 
   /* START FOOTER */
+
+  .socialmedia-icons a {
+    margin: 8px;
+  }
+
+  .footer-links a {
+      padding: 5px;
+  }
+  
+  .bottom-footer {
+    padding: 40px;
+  }
 
   .bottom-footer span {
     display: inline;
