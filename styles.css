@@ -282,12 +282,12 @@ header {
   margin-bottom: 5px;
 }
 
-.grid-text ul {
+.grid-text p {
   color: #949494;
   font-size: 13px;
 }
 
-.grid-text li {
+.grid-text span {
   display: inline;
   padding-right: 4px;
 }
@@ -765,17 +765,17 @@ footer {
 
   .first-section-header span {
     color: white;
+  }
+  
 
   .first-grid .background:hover {
       background: linear-gradient(356deg, #000, hsl(11deg 100% 62% / 39%))}
-    }  
+  }  
 
   }
 
   /* START Latest Founding */
 
-<<<<<<< HEAD
-=======
   #grid-latest-founding {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -783,7 +783,6 @@ footer {
   #additional-single-info {
     display: block;
   }
->>>>>>> 1441574e31a824b7584ab3576beb913267ffd0d3
 
   #top-latest-founding {
     display: flex;
