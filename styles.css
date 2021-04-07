@@ -246,6 +246,10 @@ header {
   margin-bottom: 10px;
 }
 
+.first-section-header {
+  display: none;
+}
+
 .second-grid {
   width: 100%;
   height: 200px;
@@ -624,11 +628,16 @@ footer {
     grid-column: 1 / span 2;
         grid-row: 1 / span 2;
         height: auto;
+        margin-bottom: 0;
     }
 
     .first-grid h2 {
         font-size: 40px;
         line-height: 40px;
+    }
+
+    .second-grid {
+      margin-bottom: 0;
     }
 
     .grid-text {
@@ -662,6 +671,70 @@ footer {
     .bottom-footer span {
     display: inline;
     }
+
+}
+
+/* For Desktop */
+
+@media (min-width: 1024px) {
+
+  .first-section {
+    height: 600px;
+  }
+
+  .grid-container {
+    height: 100%;
+  }
+
+  .first-grid h2 {
+    font-size: 50px;
+    line-height: 50px;
+    padding-bottom: 10px;
+}
+
+.second-grid {
+  height: auto;
+}
+
+.second-grid h2 {
+  font-size: 25px;
+  line-height: 27px;
+}
+
+.third-grid {
+  height: auto;
+}
+
+.third-grid h2 {
+  font-size: 25px;
+  line-height: 27px;
+}
+
+.grid-text {
+  bottom: 0;
+  padding: 20px;
+  left: 0;
+  width: 90%;
+}
+
+.first-grid .background {
+  background: linear-gradient(356deg, #000, hsl(11deg 100% 62% / 72%))
+}
+
+.first-section-header {
+  display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.first-section-header img {
+  width: 400px;
+}
+
+.first-section-header span {
+  color: white;
+
+}
 
 }
 
