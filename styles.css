@@ -673,6 +673,15 @@ footer {
 /* For Desktop */
 
 @media (min-width: 1024px) {
+
+  /* START header */
+
+  #leftTopNav {
+    display: none;
+  }
+    
+  /* START HIGHTLIGHTS */
+
   .first-section {
     height: 600px;
   }
@@ -728,5 +737,31 @@ footer {
 
   .first-section-header span {
     color: white;
+  }
+
+  /* START Latest Founding */
+
+  #grid-latest-founding {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  #additional-single-info {
+    display: block;
+  }
+
+  #top-latest-founding {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+  }
+
+  #nav-lates-founding {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+
+  .section-tittle {
+    padding: 0;
   }
 }
