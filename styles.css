@@ -532,7 +532,7 @@ footer {
   color: white;
 }
 
-/* START Latest Founding */
+/* For Tablet */
 
 @media (min-width: 768px) {
 
@@ -609,6 +609,34 @@ footer {
     #topData {
       padding: 10px;
     }
-  
+
+/* START HIGHTLIGHTS */
+
+.first-section {
+  padding-top: 110px;
+}
+
+.grid-container  {
+  grid-template-columns: repeat(3, 2fr);
+    grid-template-rows: repeat(2, 3fr);
+    grid-gap: 10px;
+    padding: 0 10px;
+}
+
+.first-grid {
+  grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    height: auto;
+}
+
+.first-grid h2 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.grid-text {
+  left: 3%
+}
+
 }
 
