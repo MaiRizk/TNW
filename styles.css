@@ -188,6 +188,10 @@ header {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/home-1.gif");
 }
 
+.socialmedia-icons i {
+  font-size: 1.3em;
+}
+
 .topNav-icons i {
   padding: 14px 16px;
   border-left: solid 1px #eee;
@@ -347,6 +351,13 @@ header {
   display: none;
 }
 
+.footer-links a {
+  font-size: 12px;
+  font-family: sans-serif;
+  justify-content: space-between;
+  padding: 0 3px;
+}
+
 .nav-lates-founding a:hover {
   color: #000;
 }
@@ -416,6 +427,13 @@ header {
   color: #aaa;
 }
 
+
+.bottom-footer span {
+  display: block;
+  color: #999;
+  font-weight: lighter;
+}
+
 .single-lef-intereactions span:hover {
   color: #000;
 }
@@ -450,24 +468,12 @@ footer {
   padding-top: 10px;
 }
 
-
-.socialmedia-icons i {
-  font-size: 1.3em;
-}
-
 .footer-links {
   justify-content: center;
   align-items: center;
   padding-bottom: 15px;
   color: #aaa;
   font-weight: lighter;
-}
-
-.footer-links a {
-  font-size: 12px;
-  font-family: sans-serif;
-  justify-content: space-between;
-  padding: 0 3px;
 }
 
 .footer-links li {
@@ -494,12 +500,6 @@ footer {
 
 .bottom-footer-img-2 {
   width: 68px;
-}
-
-.bottom-footer span {
-  display: block;
-  color: #999;
-  font-weight: lighter;
 }
 
 .wrap {
@@ -556,6 +556,10 @@ footer {
     width: 100%;
   }
 
+  .socialmedia-icons a {
+    margin: 8px;
+  }
+
   #top-nav-hidden {
     justify-content: space-between;
     background-color: black;
@@ -563,6 +567,10 @@ footer {
     padding: 10px 20px 10px 0;
     font-weight: lighter;
     font-size: 14px;
+  }
+
+  .footer-links a {
+    padding: 5px;
   }
 
   #top-nav-hidden a:hover {
@@ -659,15 +667,6 @@ footer {
   }
 
   /* START FOOTER */
-
-  .socialmedia-icons a {
-    margin: 8px;
-  }
-
-  .footer-links a {
-    padding: 5px;
-  }
-
   .bottom-footer {
     padding: 40px;
   }
