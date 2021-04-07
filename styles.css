@@ -729,6 +729,7 @@ footer {
 
 .first-section-header img {
   width: 400px;
+  z-index: 222;
 }
 
 .first-section-header span {
