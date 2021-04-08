@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://mairizk.github.io/TNW/#)
+[Live Demo Link](https://mairizk.github.io/TNW/)
 
 ## Authors
 
