@@ -1000,6 +1000,39 @@ footer {
     background: linear-gradient(356deg, #000, hsl(11deg 100% 62% / 39%));
   }
 
+  /* START LATEST NEWS AND LATEST DEALS */
+
+  .middle-page-content {
+    margin: auto;
+    padding: 0px;
+    max-width: 1200px;
+  }
+
+  .latest-grid-container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+  }
+
+  .latest-grid {
+    display: grid;
+  }
+
+  .latest {
+    height: 800px;
+    padding: 0;
+    width: 100%;
+  }
+
+  .deals-pics  img {
+    height: 210px;
+  }
+
+  .latest-grid-pics img {
+    background: none;
+  }
+
   /* START Latest Founding */
 
   #grid-latest-founding {
