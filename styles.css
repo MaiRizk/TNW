@@ -330,6 +330,7 @@ header {
     padding-right: 1px;
     padding-bottom: 1px;
     background-color: black;
+    object-fit: cover;
 }
 
 .latest-grid-text {
@@ -767,11 +768,12 @@ footer {
 
   .first-section {
     padding-top: 113px;
+    height: fit-content;
   }
 
   .grid-container {
     grid-template-columns: repeat(3, 2fr);
-    grid-template-rows: repeat(2, 3fr);
+    grid-template-rows: repeat(2, 230px);
     grid-gap: 10px;
     padding: 0 10px;
   }
@@ -779,7 +781,7 @@ footer {
   .first-grid {
     grid-column: 1 / span 2;
     grid-row: 1 / span 2;
-    height: 270px;
+    height: 100%;
     margin-bottom: 0;
   }
 
@@ -790,11 +792,11 @@ footer {
 
   .second-grid {
     margin-bottom: 0;
-    height: 130px;
+    height: 100%;
   }
 
   .third-grid {
-    height: 130px;
+    height: 100%;
   }
 
   .grid-text {
