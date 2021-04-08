@@ -309,6 +309,7 @@ header {
 
 .latest {
   padding: 0 15px;
+    margin-bottom: 250px;
 }
 
 .latest h2 {
@@ -802,6 +803,40 @@ footer {
 
   /* START LATEST NEWS AND LATEST DEALS */
 
+  .middle-page-content {
+    padding: 0 25px;
+  }
+
+  .latest {
+    padding: 0;
+    height: 900px;
+  }
+
+  .latest-grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+  }
+
+  .latest-grid {
+    display: grid;
+  }
+
+  .latest-grid-pics img {
+    width: 100%;
+    height: 180px;
+  }
+
+  .latest-grid-text {
+    margin-left: 0;
+  }
+
+  .latest-grid-text h4 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
   /* START Lates founding */
 
   .nav-lates-founding {
@@ -823,6 +858,10 @@ footer {
 
   .grid-padding {
     padding-right: 20px;
+  }
+
+  #lates-founding {
+    margin: 0;
   }
 
     /* START Categories */
