@@ -230,6 +230,10 @@ header {
 
 /* START HIGHTLIGHTS */
 
+.first-section {
+  margin-bottom: 150px;
+}
+
 .grid-container {
   padding-top: 80px;
   padding-left: 10px;
@@ -977,10 +981,6 @@ footer {
 
   /* START HIGHTLIGHTS */
 
-  .first-section {
-    margin-bottom: 40px;
-  }
-
   .first-grid {
     height: 100%;
   }
@@ -1058,7 +1058,7 @@ footer {
   }
 
   .latest {
-    height: 800px;
+    height: 700px;
     padding: 0;
     width: 100%;
   }
