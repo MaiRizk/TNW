@@ -301,13 +301,80 @@ header {
   height: 100%;
 }
 
-/* START LATEST NEWS */ 
+/* START LATES NEWS AND LATEST DEALS */
 
 .whitespace {
-  height: 400px;
+  height: 300px;
 }
 
-/* START Lates founding */
+.latest {
+  padding: 0 15px;
+}
+
+.latest h2 {
+  font-size: 28px;
+  font-family: 'Avalon short', sans-serif;
+  color: #FF4422;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+.latest-grid-container {
+  grid-template-rows: repeat(8, 90px);
+}
+
+.latest-grid-pics img{
+  width: 80px;
+    height: 80px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    background-color: black;
+}
+
+.latest-grid-text {
+  margin-left: 10px;
+}
+
+.latest-grid-text h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding-top: 3px;
+}
+
+.news-smaller-text {
+  color: #aba8a8;
+  font-size: 14px;
+}
+
+.latest-deals-header {
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  color: #FF4422;
+}
+
+.latest-deals-header h2 {
+  margin-bottom: 0;
+}
+
+.deals-discount {
+  color: rgb(168, 164, 164);
+  font-size: 14px;
+  text-decoration: line-through;
+}
+
+.deals-price {
+  padding-left: 5px;
+  color: rgb(90, 87, 87);
+}
+
+.latest-deals {
+  margin-bottom: 250px;
+}
+
+/* START Latest founding */
 
 #lates-founding {
   padding: 10px 0 24px;
@@ -654,6 +721,8 @@ footer {
   .grid-text {
     left: 3%;
   }
+
+  /* START LATEST NEWS AND LATEST DEALS */
 
   /* START Lates founding */
 
