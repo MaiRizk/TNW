@@ -759,7 +759,7 @@ footer {
     padding: 30px 20px;
   }
 
-  #leftTopNav img {
+  .leftTopNav img {
     width: 60px;
   }
 
@@ -841,7 +841,6 @@ footer {
 
   .first-section {
     padding-top: 113px;
-    height: fit-content;
   }
 
   .grid-container {
